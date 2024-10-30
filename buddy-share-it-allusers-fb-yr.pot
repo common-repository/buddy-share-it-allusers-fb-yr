@@ -1,0 +1,656 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: yr-bpshare\n"
+"POT-Creation-Date: 2018-11-12 23:35+0200\n"
+"PO-Revision-Date: 2016-12-30 02:25+0300\n"
+"Last-Translator: YR\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: loader.php\n"
+"X-Poedit-SearchPath-1: yr-bpshare.php\n"
+"X-Poedit-SearchPath-2: yr-bpshare-hlp.php\n"
+
+#: yr-bpshare-hlp.php:10
+#, fuzzy
+msgid "What can the BPShare-YR plugin do?"
+msgstr "Что может делать плагин BPShare-YR? "
+
+#: yr-bpshare-hlp.php:11
+#, fuzzy
+msgid ""
+"This plugin can insert various buttons or links into the text (above, below "
+"the content) of the article, or activity post, in the forum.  The plugin "
+"works with both WordPress and WordPress + Buddypress. There are also social "
+"network buttons on Facebook, Twitter, LinkedIn, Google+, Digg, etc. for "
+"sharing articles of the WordPress blog or Buddypress activity. There is also "
+"a Facebook button Like, with different parameters."
+msgstr ""
+"Этот плагин может вставлять разные кнопки или ссылки в текст (выше, ниже "
+"контента) статьи, или поста активности, форума. Плагин работает как с "
+"Вордпресс, так и с Вордпресс + Баддипресс. Предусмотрены также кнопки "
+"социальных сетей Facebook, Twitter, LinkedIn, Google+, Digg, etc. для "
+"расшаривания статей блога Вордпресс или активности в Баддипресс. "
+"Предусмотрена также кнопка Like Facebook, с разными параметрами. "
+
+#: yr-bpshare-hlp.php:12
+#, fuzzy
+msgid ""
+"There can also be any other buttons or images with links that the admin site "
+"indicates. Buttons can have any images or icons, or loaded along with the "
+"plugin, or images that the site administrator will assign. The image / icon "
+"can be specified outside the site by a link to the Internet. The button link "
+"format can be standard for social networking buttons like Facebook, "
+"Linkedin, Twitter, etc, or the site administrator can create a link for "
+"their new invented button. The handler of the new button can be given a link "
+"to the blog article or activity, and the text of the title of this article."
+msgstr ""
+"Это могут быть любые другие кнопки или изображения со ссылками, которые "
+"укажет админ сайта. Кнопки могут иметь любые изображения или иконки, или "
+"загруженные вместе с плагином, или изображения, которые назначит "
+"администратор сайта. Изображение/иконка может быть указана за пределами "
+"сайта по ссылке в интернет. Формат ссылки кнопки может быть стандартный для "
+"кнопок социальных сетей типа Facebook, Linkedin, Twitter, etc, или ссылку "
+"может создать администратор сайта для своей новой придуманной кнопки. "
+"Обработчику новой кнопки может быть передана ссылка на статью блога или "
+"активности, и текст заголовка этой статьи. "
+
+#: yr-bpshare-hlp.php:13
+#, fuzzy
+msgid ""
+"Buttons (images with links) can be inserted in any place of the text of the "
+"article of the blog WordPress."
+msgstr ""
+"Кнопки (изображения со ссылками) могут быть вставлены в произвольное место "
+"текста статьи блога Вордпресс."
+
+#: yr-bpshare-hlp.php:14
+#, fuzzy
+msgid ""
+"The plugin provides many options for setting buttons on the site. The plugin "
+"is complicated in the settings, but it is a very powerful plugin in the "
+"hands of an experienced admin site."
+msgstr ""
+"Плагин дает много вариантов настроек кнопок на сайте. Плагин сложный в "
+"настройках, но это очень мощный плагин в руках опытного админа сайта."
+
+#: yr-bpshare-hlp.php:15
+#, fuzzy
+msgid "Why do I need a parameter table?"
+msgstr "Для чего нужна таблица параметров? "
+
+#: yr-bpshare-hlp.php:16
+#, fuzzy
+msgid ""
+"To configure (generate) one button, you need to fill in one line of the "
+"parameter settings table. The number of buttons can be up to 24 pieces (this "
+"number can be increased). In the name of the button, you can specify in "
+"addition different Keywords for different types of buttons."
+msgstr ""
+"Для настройки (генерации) одной кнопки нужно заполнить одну строку таблицы "
+"настроек параметров. Количество кнопок может быть до 24 штук (это число "
+"можно увеличить). В наименовании кнопки можно указывать дополнительно разные "
+"«ключевые слова», для разных видов кнопок."
+
+#: yr-bpshare-hlp.php:17
+#, fuzzy
+msgid "Buttons are generated such types:"
+msgstr "Кнопки генерируются таких видов:  "
+
+#: yr-bpshare-hlp.php:18
+#, fuzzy
+msgid ""
+"1) By default: hidden button - the button is hidden behind the common "
+"(large) JS Share button, the hidden button drops out of it when pressed. A "
+"separate parameter can be given the text of the inscription of the big JS "
+"Share button."
+msgstr ""
+"1) По умолчанию: скрытая кнопка – кнопка скрывается  за общей (большой) JS "
+"Share кнопкой, скрытая кнопка выпадает из нее при нажатии. Отдельным "
+"параметром можно дать текст надписи большой JS Share кнопки.  "
+
+#: yr-bpshare-hlp.php:19
+#, fuzzy
+msgid ""
+"2) The open button, clicking on it will click on the link (the keyword "
+"\"nojsb\")."
+msgstr ""
+"2) Открытая кнопка, при нажатии на нее будет переход по ссылке (ключевое "
+"слово “nojsb”)."
+
+#: yr-bpshare-hlp.php:20
+#, fuzzy
+msgid "3) Buttons above the content \"Activity\" Buddypress (by default)."
+msgstr "3) Кнопки выше контента «Активность» Buddypress (по умолчанию)."
+
+#: yr-bpshare-hlp.php:21
+#, fuzzy
+msgid ""
+"4) Buttons below the content Activity Buddypress (keyword \"afteractivity\")."
+msgstr ""
+"4) Кнопки ниже контента «Активность» Buddypress ( ключевое слово "
+"“afteractivity”)."
+
+#: yr-bpshare-hlp.php:22
+#, fuzzy
+msgid "5) Buttons in any place of the blog article (\"intxt\")."
+msgstr "5) Кнопки в произвольном месте статьи блога (“intxt”)."
+
+#: yr-bpshare-hlp.php:23
+#, fuzzy
+msgid ""
+"6) Any button can have its own individual image (icon) by reference "
+"(\"imgsrc=\")."
+msgstr ""
+"6) Любая кнопка может иметь свое индивидуальное изображение (иконку) по "
+"ссылке (“imgsrc=”). "
+
+#: yr-bpshare-hlp.php:24
+#, fuzzy
+msgid ""
+"7) Any button can have its own link to the program button handler. The link "
+"is indicated in the URL field.."
+msgstr ""
+"7) Любая кнопка может иметь свою собственную ссылку на программу обработчик "
+"кнопки. Ссылка указывается в поле URL."
+
+#: yr-bpshare-hlp.php:25
+#, fuzzy
+msgid ""
+"8) SIMULTANEOUSLY there can be ALL kinds of buttons 1) 2) 3) 4) 5) 6) 7). "
+"That is, for example, there may be one large common JS Share button above "
+"the content in the Buddypress Activity and below the content of the "
+"activity, and several open small buttons next to them. Each button is "
+"individually described."
+msgstr ""
+"8) ОДНОВРЕМЕННО могут быть ВСЕ виды кнопок  1) 2) 3) 4) 5) 6) 7)  . То есть "
+"например, выше контента в Активности Баддипресс и ниже контента активности "
+"могут быть по одной большой общей JS Share кнопке, и по несколько открытых "
+"маленьких кнопок рядом с ними. Каждая кнопка индивидуально описывается."
+
+#: yr-bpshare-hlp.php:26
+#, fuzzy
+msgid ""
+"In the row of the table in the field \"Name\" instead of setting the button "
+"you can write a command to the plugin. The plugin command begins with the $ "
+"sign. In such a row of the table, the remaining fields are ignored, they can "
+"be left blank."
+msgstr ""
+"В строке таблицы в поле «Наименование» можно вместо настройки кнопки "
+"написать команду плагину. Команда плагину начинается со знака $. В такой "
+"строке таблицы остальные поля игнорируются, их можно не заполнять."
+
+#: yr-bpshare-hlp.php:28
+#, fuzzy
+msgid "Instructions for filling in the fields and rows of the table."
+msgstr "Инструкция по заполнению полей строк таблицы. "
+
+#: yr-bpshare-hlp.php:30
+#, fuzzy
+msgid "Field \"Name\" - Share on:(name):"
+msgstr "Поле «Наименование» - Share on: (name): "
+
+#: yr-bpshare-hlp.php:31
+#, fuzzy
+msgid ""
+"1)\tIt can be empty or \"no name\" - then the row of the table is not "
+"processed."
+msgstr ""
+"1) Может быть пустым или  no name  – тогда строка таблицы не "
+"обрабатывается.  "
+
+#: yr-bpshare-hlp.php:32
+#, fuzzy
+msgid "2) The table row can be of two types:"
+msgstr "2) Строка таблицы может быть двух видов:   "
+
+#: yr-bpshare-hlp.php:33
+#, fuzzy
+msgid ""
+"a) The string that contains the command to the plugin - if the $ character "
+"is found in the Share on: (name) field. Then the plugin ignores the "
+"remaining fields of the string. The command line does not generate a button."
+msgstr ""
+"a) Строка которая содержит команду плагину – если в поле Share on: (name) "
+"обнаружен символ $. Тогда плагин игнорирует остальные поля строки. Строка с "
+"командой не генерирует кнопку.   "
+
+#: yr-bpshare-hlp.php:34
+#, fuzzy
+msgid ""
+"b) The string that generates the button, its fields describe the parameters "
+"of the button. The Share on:(name) field in this case is the name of the "
+"button (for example, Faceb4) and there can be one or several KEYWORDS to "
+"describe how to place the button, where to take its icon, etc."
+msgstr ""
+"b) Строка которая генерирует кнопку, ее поля описывают параметры кнопки. В "
+"поле Share on: (name)   в этом случае записывается название кнопки "
+"(например, Faceb4) и может быть одно или несколько КЛЮЧЕВЫХ СЛОВ для "
+"описания как располагать кнопку, где брать ее иконку и т д.   "
+
+#: yr-bpshare-hlp.php:35
+#, fuzzy
+msgid ""
+"3)\tWhat should I write in the Share on: (name) field to generate a button? "
+"The first word is any of your button names, for example: Faceb1, Twit2, "
+"etc, ... The second, third and fourth letters of the first word will be "
+"offered pictures for the buttons, the file names of which contain these "
+"2,3,4 letters. A set of standard image files is supplied with the plugin in "
+"the img subdirectory. The user can add any additional files of any pictures "
+"to the plugin subdirectories independently."
+msgstr ""
+"3) Что писать в поле Share on: (name) для генерации кнопки? Первое слово – "
+"любое ваше название кнопки, например: Faceb, Twit, share etc,…  По второй, "
+"третьей и четвертой буквам из первого слова будут предложены картинки для "
+"кнопок, имена файлов которых содержат эти 2,3,4 буквы. Набор стандартных "
+"файлов картинок поставляется вместе с плагином в поддиректории img. Любые "
+"дополнительные файлы любых картинок пользователь может добавить в "
+"поддиректорий плагина самостоятельно. "
+
+#: yr-bpshare-hlp.php:36
+#, fuzzy
+msgid ""
+"4)\tThe second and further words in the Share on: (name) field - there may "
+"be \"plugin keywords\". The plugin keywords can be:"
+msgstr ""
+"4) Второе и дальше  слова в поле Share on: (name) – могут быть «ключевые "
+"слова плагина». Ключевыми словами плагина могут быть: "
+
+#: yr-bpshare-hlp.php:37
+#, fuzzy
+msgid ""
+"a) nojsb - do not hide this button behind the common JS Share button. By "
+"default, the JS Share option common button is enabled, that is, without the "
+"\"nojsb\" keyword, such a button will be hidden behind the common JS button, "
+"and such a button will \"fall out\" from a single JS Share button when it is "
+"pressed."
+msgstr ""
+"a) nojsb   - не скрывать эту кнопку за общей JS Share кнопкой. По умолчанию "
+"опция JS Share общая кнопка - включена, то есть без ключевого слова nojsb "
+"такая кнопка будет скрыта за общей JS кнопкой, и такая кнопка будет "
+"«выпадать» из единой JS Share кнопки при ее нажатии. "
+
+#: yr-bpshare-hlp.php:38
+#, fuzzy
+msgid ""
+"b) intxt - such a button will appear in those articles of the BLOG in the "
+"text of which the shortcode [yr-bpshare-button] is inserted, and exactly in "
+"the place where this code is inserted into the text of the article."
+msgstr ""
+"b) intxt   - такая кнопка появится в тех статьях БЛОГА, в тексте которых "
+"вставлен шорткод [yr-bpshare-button], и именно в том месте где этот код "
+"вставлен в текст статьи."
+
+#: yr-bpshare-hlp.php:39
+#, fuzzy
+msgid ""
+"c) afteractivity - this button will appear after (below) the content of the "
+"Activity. By default, if there is no such keyword, the button will appear in "
+"front of (above) the content of the activity (Activity)."
+msgstr ""
+"c) afteractivity  - такая кнопка появится после (внизу) контента Activity. "
+"По умолчанию – если такого ключевого слова нет, кнопка появится перед (выше) "
+"контента активности (Activity).  "
+
+#: yr-bpshare-hlp.php:40
+#, fuzzy
+msgid ""
+"d) imgsrc= - this button will take its image (icon) at the specified link, "
+"for example: imgsrc=http://yoursite.com/images/facebround32.png"
+msgstr ""
+"d) imgsrc=   - такая кнопка возьмет свое изображение (иконку) по указанной "
+"ссылке, например: imgsrc=http://yoursite.com/images/facebround32.png    "
+
+#: yr-bpshare-hlp.php:41
+#, fuzzy
+msgid ""
+"e) buttonfblike - a description of the Facebook Like button. It should be in "
+"the line that is below the lines with the Like configuration commands (below "
+"the parameter lines of the Like button). In this line of the table only the "
+"sections of the site (pages of the site) where the button should be "
+"generated are marked."
+msgstr ""
+"e) buttonfblike – описание кнопки Facebook Like.  Должно быть в строке, "
+"которая ниже строк с командами настройки Like (ниже строк параметров кнопки "
+"Like). В этой строке таблицы отмечаются только разделы сайта (страницы "
+"сайта) где кнопка должна быть сгенерирована.   "
+
+#: yr-bpshare-hlp.php:42
+#, fuzzy
+msgid ""
+"5) In the \"Share on:(name)\" field, you can specify commands to the plugin. "
+"Then in such a line the remaining fields are ignored. The plugin can specify "
+"the following commands:"
+msgstr ""
+"5) В поле Share on: (name) можно указать команды плагину. Тогда в такой "
+"строке остальные поля игнорируются.  Плагину можно указывать такие "
+"команды:   "
+
+#: yr-bpshare-hlp.php:43
+#, fuzzy
+msgid ""
+"a)\t$jsbname=&lt;Text and text&gt; -is the plugin command, \"Text and text\" "
+"will replace the standard JS Share name of a single large button. Very "
+"useful option. For example: $jsbname=&lt;There are even more different "
+"buttons&gt; - try."
+msgstr ""
+"a) $jsbname=&lt;Text and text&gt;  - это команда плагина, “Text and text” "
+"заменит стандартное название JS Share единой кнопки. Очень полезная опция. "
+"Например: $jsbname=&lt; Здесь еще больше разных кнопок &gt;  - попробуйте."
+
+#: yr-bpshare-hlp.php:44
+msgid ""
+"b) $buttonstyle=&lt;border: 2px solid red;&gt; - For example, Here you can "
+"specify different style elements for the any button. You can specify many "
+"elements of style. The command $buttonstyle= applies to all buttons that are "
+"located below in the settings table. To annul a style for a button, above "
+"the button, you can specify a command with a space instead of a style. Or a "
+"different style. Remember that commands are written in separate lines of the "
+"settings table, and are not combined with the button description.?></p>\n"
+"<p><?php _e("
+msgstr ""
+
+#: yr-bpshare.php:91
+#, fuzzy
+msgid ""
+"BuddyShare-YR: You do not have sufficient permissions to access this admin "
+"page"
+msgstr "BuddyShare-YR: у Вас нет прав доступа к Админ-странице "
+
+#: yr-bpshare.php:132
+#, fuzzy
+msgid "Settings"
+msgstr "Настройки параметров "
+
+#: yr-bpshare.php:138
+#, fuzzy
+msgid "Button:"
+msgstr "Кнопка: "
+
+#: yr-bpshare.php:140
+#, fuzzy
+msgid "Select button image:"
+msgstr "Выбрать изображение кнопки: "
+
+#: yr-bpshare.php:142
+#, fuzzy
+msgid "Content to share:"
+msgstr "Контент для кнопок поделиться: "
+
+#: yr-bpshare.php:144
+#, fuzzy
+msgid "Sharer URL (Php template):"
+msgstr "URL по которому перейдет кнопка (php шаблон) "
+
+#: yr-bpshare.php:148
+#, fuzzy
+msgid "Activity"
+msgstr "Активность "
+
+#: yr-bpshare.php:151
+#, fuzzy
+msgid "Blog"
+msgstr "Блог "
+
+#: yr-bpshare.php:154
+#, fuzzy
+msgid "Forums"
+msgstr "Форумы "
+
+#: yr-bpshare.php:157
+#, fuzzy
+msgid "Groups"
+msgstr "Группы "
+
+#: yr-bpshare.php:266
+#, fuzzy
+msgid "Save Changes"
+msgstr "Сохранить изменения "
+
+#: yr-bpshare.php:272
+#, fuzzy
+msgid "You can:"
+msgstr "Вы можете: "
+
+#: yr-bpshare.php:273
+#, fuzzy
+msgid ""
+"1) You can create your own Button, Share Name, and Sharer URL, directly from "
+"admin page. Share Name can choose any."
+msgstr ""
+"1) Вы можете создать свою собственную кнопку, указав Share Name и URL для "
+"кнопки, непосредственно из страницы Админа. Share Name можно выбрать любым. "
+
+#: yr-bpshare.php:274
+#, fuzzy
+msgid ""
+"2) You can to add (upload) own button image files into plugin dir /img/, "
+"&nbsp;and will be better if 1-3 letters of this image name = 1-3 letters of "
+"&quot;share on name&quot;, &nbsp;and images size must be: height = 16 or 32 "
+"(weight = any), &nbsp;and images name must include digital 16 or 32."
+msgstr ""
+"2) Вы можете добавить (выгрузить) изображение для собственной кнопки в "
+"директорий этого плагина  /img/, но будет лучше, если символы 1-3  от имени  "
+"изображения будут равны символам 1- 3 от имени в колонке 'Share on name'. "
+"Также, размер изображения должен быть: высота = 16 или 32 пикселя, ширина "
+"любая, и имя изображения должно включать 16 или 32 - соответственно какая "
+"высота изображения. "
+
+#: yr-bpshare.php:275
+#, fuzzy
+msgid ""
+"3) You can create your own Sharer URL (Php template) with rule: &nbsp;"
+"variable $title - plugin replaced by Article title, &nbsp;variable $link - "
+"plugin replaced by Article link, all another text in http: link - may be "
+"yours."
+msgstr ""
+"3) Вы можете указать для кнопки свой собственный URL для расшаривания (куда "
+"именно перейти при нажатии на кнопку или изображение), при этом соблюдая "
+"правила: переменная $title - плагин заменит ее названием статьи, переменная "
+"$link - плагин заменит ее ссылкой на статью. Любой другой текст, который "
+"появится в ссылке http: при нажатии на кнопку - может быть Ваш. Используйте "
+"типовые конструкции ссылок для социальных сетей для расшаривания.  "
+
+#: yr-bpshare.php:276
+#, fuzzy
+msgid ""
+"4) Share on:(name) - may be your own text-name, but: if Shareon:(name) is "
+"empty or = \"no name\", then this line is not processed. Shareon:(name) can "
+"contain keywords:"
+msgstr ""
+"4) В колонке Share on:(name) - может быть придуманное Вами собственное "
+"наименование, лучше чтобы первые 3 символа совпадали со стандартным "
+"наименованием сети. Если Shareon:(name) - пустое или содержит 'no name', то "
+"такая строка параметров не воспринимается (не обрабатывается) плагином. "
+"Кроме того, наименование Shareon:(name) может содержать ключевые слова, "
+"которые управляют работой плагина, например: "
+
+#: yr-bpshare.php:277
+#, fuzzy
+msgid ""
+"- If Shareon:(name) includes the keyword \"nojsb\", then such Button not "
+"hidden by one JS Share Button (JS Share Button - the default option)."
+msgstr ""
+"- Если наименование в колонке Shareon:(name) содержит ключевое слово "
+"'nojsb', то такая кнопка НЕ скрывается за единой JS Share кнопкой. По "
+"умолчанию опция JS Share кнопка - включена, то есть без ключевого слова "
+"nojsb такая кнопка будет скрыта за общей JS кнопкой с названием типа "
+"Поделиться еще, и при нажатии на JS кнопку из нее выпадают скрытые "
+"социальные кнопки иконки. Общая кнопка может содержать много кнопок. Разных "
+"размеров. "
+
+#: yr-bpshare.php:278
+#, fuzzy
+msgid ""
+"- If Shareon:(name) includes the keyword \"intxt\", then such Button appears "
+"in those blog articles, in the text of which the Shortcode [yr-bpshare-"
+"button] is inserted. Only one Shortcode [yr-bpshare-button] can be inserted "
+"anywhere in the article. The Shortcode [yr-bpshare-button] will be replaced "
+"by \"intxt\" buttons."
+msgstr ""
+"- Если колонка Shareon:(name) содержит ключевое слово \"intxt\", то такая "
+"кнопка появляется в тех статьях блога, в тексте которых вставлен шорткод  "
+"[yr-bpshare-button], и именно в том месте где этот код вставлен в текст "
+"статьи. Только один шорткод [yr-bpshare-button] заменяется социальной "
+"кнопкой или несколькими кнопками, и/или JS кнопкой. Количество зависит от "
+"того скольким кнопкам вы дали ключевое слово intxt. Если кнопка появится в "
+"тексте статьи блога – она не появляется в Classic месте блога по умолчанию  "
+"– например в конце статьи. Однако такая кнопка появится в Активности или в "
+"Группах и тд, если поставлена птичка чтобы она там появилась. "
+
+#: yr-bpshare.php:279
+#, fuzzy
+msgid ""
+"- If Shareon:(name) includes the keyword \"afteractivity\", then such Button "
+"will appear after the Activity content. (By default, the button appears "
+"before the activity content.)"
+msgstr ""
+"- Если наименование в колонке Shareon:(name) содержит ключевое слово ' "
+"afteractivity ', то такая кнопка появится после (внизу) контента Activity. "
+"По умолчанию – наоборот, если такого ключевого слова нет, кнопка появится "
+"перед (выше) контента активности (Activity). "
+
+#: yr-bpshare.php:280
+#, fuzzy
+msgid ""
+"- If Shareon:(name) includes the keyword \"imgsrc=\" and then a link is "
+"written, for example \"imgsrc=http://yoursite.com/images/facebround32.png\", "
+"then the image for such a button will be taken from this link. You can give "
+"a link to any image of any size and see how they are displayed on the site. "
+"This keyword is convenient for debugging. The keyword \"imgsrc=\" is more "
+"priority than setting the icons from the plugin sub-directory. The image "
+"settings from the plugin sub-directory on the admin page remain unchanged."
+msgstr ""
+"- Если значение в колонке Shareon:(name) содержит ключевое слово \"imgsrc=\" "
+"за которым сразу написана ссылка, например, \"imgsrc=http://yoursite.com/"
+"images/facebround32.png\", тогда изображение (иконка) для такой кнопки будет "
+"взято по указанной ссылке. Вы можете дать ссылку на любое изображение, "
+"картинку, иконку, и посмотреть как она будет отображаться на сайте. Это "
+"ключевое слово удобно использовать для отладки. Ключевое слово \"imgsrc=\" "
+"для плагина более приоритетно, чем настройки иконки из поддиректория "
+"плагина /img. Настройки иконки из поддиректория плагина на админ-страничке в "
+"настройках плагина не меняются, однако иконка (изображение) будет взято по "
+"ссылке imgsrc= ."
+
+#: yr-bpshare.php:281
+#, fuzzy
+msgid ""
+"- If Shareon:(name) includes the keyword \"buttonfblike\", then such Button "
+"will be a Facebook Like button. In this row you also need to specify only "
+"the sections of the site where the Like button should be generated."
+msgstr ""
+"- Если значение в колонке Shareon:(name) содержит ключевое слово "
+"\"buttonfblike\", причем ключевое слово не зависит от регистра литер, то "
+"этой строкой будет создана Facebook Like кнопка. В этой строке нужно указать "
+"только страницы (разделы) сайта где нужно вставлять кнопку. Отметить "
+"\"птичками\"  нужный Контент.  Остальные поля строки  плагин не "
+"обрабатывает.  "
+
+#: yr-bpshare.php:282
+#, fuzzy
+msgid ""
+"- Commands to the plugin in Share on(name) field: $jsbname=&lt;Text and "
+"text&gt; -is the plugin command, \"Text and text\" will replace the standard "
+"JS Share name of a single large button."
+msgstr ""
+"- Если значение в поле Shareon:(name) содержит такую команду:  $jsbname=&lt;"
+"Text and text&gt;   тогда \"Text and text\" заменит стандартное имя единой "
+"большой JS Share кнопки. "
+
+#: yr-bpshare.php:283
+#, fuzzy
+msgid ""
+"- Commands to the plugin to customize the FB Like button: $fblikeappid=, "
+"$fblikeloc=, $fblikesize=, $fblikelayout=, $fblikestyle=. For more details, "
+"please see the Instructions."
+msgstr ""
+"- Команды для настройки кнопки FB Like: $fblikeappid=, $fblikeloc=, "
+"$fblikesize=, $fblikelayout=, $fblikestyle=.  Для больших деталей смотри "
+"пожалуйста инструкцию."
+
+#: yr-bpshare.php:284
+#, fuzzy
+msgid ""
+"- Examples of the values of the column Share on (name):  Facebook nojsb  / "
+"Linked2 intxt / Faceb3 intxt nojsb / Facebook nojsb imgsrc=http://own-home."
+"com.ua/images/facebround32.png"
+msgstr ""
+"- Примеры значений колонки Share on (name):  Facebook nojsb  / Linked2 "
+"intxt / Faceb3 intxt nojsb / Facebook nojsb imgsrc=http://own-home.com.ua/"
+"images/facebround32.png. Первые 3 символа наименования иконок совпадают с "
+"названием социальной сети в графе Shareon:(name), точнее совпадать должны "
+"символы 2 и 3, и тогда вы можете получить подсказку других иконок этой сети "
+"на админ-страничке. Более детально примеры настроек кнопок читайте на "
+"странице репозитория плагина или в readme. "
+
+#: yr-bpshare.php:285
+#, fuzzy
+msgid ""
+"- Example of FB Like button settings: $fblikesize=&lt;small&gt; "
+"$fblikelayout=&lt;button_count&gt; $fblikeappid=&lt;222222222222222&gt; "
+"$fblikestyle=&lt;display:inline;vertical-align:middle;position:relative;"
+"bottom:4px;&gt;"
+msgstr ""
+"- Пример настройки кнопки FB Like: $fblikesize=&lt;small&gt; "
+"$fblikelayout=&lt;button_count&gt; $fblikeappid=&lt;222222222222222&gt; "
+"$fblikestyle=&lt;display:inline;vertical-align:middle;position:relative;"
+"bottom:4px;&gt;"
+
+#: yr-bpshare.php:286
+#, fuzzy
+msgid "- Example of FB Like button generation keywords: buttonFBlike nojsb"
+msgstr ""
+"- Пример записи в строке в поле Name для генерации кнопки FB Like: "
+"buttonFBlike nojsb. Будет сгенерирована открытая (nojsb) кнопка FB Like. "
+"Настройки этой кнопки будут или по умолчанию, или взяты из команд настроек "
+"Like, которые записаны в таблице в строках выше."
+
+#: yr-bpshare.php:287
+msgid ""
+"- Commands to the plugin to customize your style of any button: "
+"$buttonstyle=&lt;border: 2px solid red;&gt; - For example. For more details, "
+"please see the Instructions."
+msgstr ""
+
+#: yr-bpshare.php:288
+#, fuzzy
+msgid ""
+"5) Button Reset_to_init - set options lines to plugin initial. Be careful. "
+"Your settings will be lost."
+msgstr ""
+"5) Кнопка Reset to init - возвращает все настройки плагина к начальным. "
+"Будьте внимательны – настройки Ваших кнопок могут быть СТЕРТЫ. "
+"Дополнительное подтверждение на удаление не запрашивается."
+
+#: yr-bpshare.php:289
+#, fuzzy
+msgid ""
+"6) When upgrading, your settings remain. After upgrade please press Save - "
+"rule for versions from 3.0 and higher. However, the sub-directory of the "
+"plugin images will be overwritten with images for the new version (all the "
+"old plugin icons are saved), i.e your own icon images will not be saved. "
+"Your own icons will need to be re-written in the sub-directory of the new "
+"version of the plugin."
+msgstr ""
+"6) При обновлении версии плагина Ваши настройки сохраняются. Нужно только "
+"после обновления зайти на страничку настроек (страничку админа) и нажать "
+"Сохранить настройки. Это правило действует для версий от 3.0 и выше. "
+"Однако, /img поддиректорий плагина, который содержит изображения иконок – "
+"будет перезаписан новой версией, и если там были записаны Ваши собственные "
+"иконки – они не сохраняются, их необходимо записать в этот поддиректорий "
+"снова. Поэтому рекомендуется хранить отдельно поддиректорий Ваших "
+"собственных иконок и переписывать его в плагин после обновления версии. "
+
+#: yr-bpshare.php:473
+#, fuzzy
+msgid "Share more"
+msgstr "Поделиться еще "
